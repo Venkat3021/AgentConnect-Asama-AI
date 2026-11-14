@@ -1,5 +1,10 @@
+
 fastapi==0.115.6
 uvicorn[standard]==0.34.0
 pydantic==2.10.4
 scikit-learn==1.6.0
 openai==1.59.7
+psycopg[binary]
+pgvector
+python-dotenv
+sentence-transformers
