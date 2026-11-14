@@ -7,4 +7,8 @@ openai==1.59.7
 psycopg[binary]
 pgvector
 python-dotenv
-sentence-transformers
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+transformers==4.41.2
+sentence-transformers==2.7.0
